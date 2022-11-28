@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+.header{
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 72px;
+    background-color: #F5FBDA;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    margin-right: 130px;
+    margin-left: 130px;
+    background-color: #F5FBDA;
+}
+
+.nav__container h1{
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: bold;
+    color: #3A365E;
+    background-color: #F5FBDA;
+}
+
+.nav__items{
+    background-color: #F5FBDA;
+}
+
+.nav__items ul{
+    background-color: #F5FBDA;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav__items li{
+    background-color: #F5FBDA;
+}
+
+ul.nav li a.active{
+    color:  #CCEC46;
+    border-bottom: 1.5px solid  #CCEC46;
+    border-bottom-width: 1.5px;
+}
+
+.nav__items li a{
+    background-color: #F5FBDA;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.nav__items li a:hover{
+    background-color: #F5FBDA;
+    color: #CCEC46;
+    text-decoration: none;
+    transition: .4s;
+    border-bottom: 1.5px solid #CCEC46;
+    border-bottom-width: 1.5px;
+}
+
+
+/* HOME PAGE */
+
+
+.beranda{
+    margin-top: 72px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.hero-text h2{
+    font-size: 35px;
+    font-weight: 700;
+    color:#3A365E;
+    letter-spacing: -2px;
+    line-height: 60px;
+}
+
+.hero-text p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #3A365E;
+}
+
+.btn-primary{
+    cursor: pointer;
+    padding: 6px 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #CCEC46;
+    color: #3A365E;
+    border: 2px solid #CCEC46;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    padding: 6px 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #667623;
+    color: #fff;
+    border: 2px solid #667623;
+    transition: 0.4s ease-in-out;
+}
+
+.btn-secondary{
+    cursor: pointer;
+    padding: 6px 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3A365E;
+    border: 2px solid #fff;
+}
+
+.btn-secondary:hover{
+    cursor: pointer;
+    padding: 6px 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #667623;
+    color: white;
+    border: 2px solid #667623;
+    transition: 0.4s ease-in-out;
+}
+
+.hero-img img{
+    position: relative;
+    width: 510px;
+    height: 510px;
+}
+
+.makanan a{
+    padding-top: 10px;
+    color: #CCEC46;
+}
+
+.makanan a:hover{
+    color: #667623;
+}
+
+/* MANFAAT */
+
+.content{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #3A365E;
+}
+
+.content-wrapper{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin: 40px 130px;
+}
+
+.makanan{
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+.makanan p{
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.makanan h2{
+    background-color: #fff;
+}
+
+.button__card {
+    background-color: white;
+    color: #CCEC46;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 6px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--primary-orange-500);
+    transition: .4s;
+}
+
+.button__card:hover {
+    color: #667623;
+    color: var(--primary-orange-400);
+    transition: .4s;
+}
+
+.ri-arrow-right-line{
+    background-color: white;
+    color: #CCEC46;
+}
+
+.button__card:hover .card__icon {
+    color: #667623;
+    transform: translateX(10px);
+    transition: .4s;
+    /* color: var(--primary-orange-500); */
+}
+
+.makanan.satu{
+    
+    border-radius: 20px;
+    color:#3A365E;
+    
+}
+
+.makanan.dua{
+    
+    border-radius: 20px;
+    color: #3A365E;
+}
+
+.makanan.tiga{
+    
+    border-radius: 20px;
+    color: #3A365E;
+}
+
+.makanan.empat{
+    
+    border-radius: 20px;
+    color: #3A365E;
+}
+
+
+/* MANFAAT NANDUR */
+
+
+
+.manfaat__title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #3A365E;
+}
+
+.manfaat__container {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+}
+
+.manfaat__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 266px;
+}
+
+.manfaat__img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 32px;
+}
+
+.manfaat__content-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #3A365E;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.manfaat__content-deskripsi {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: var(--font-thin);
+    color: #3A365E;
+}
+
+/* TEAM */
+
+.tim__title{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.tim__container {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 170px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.tim__hacker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 274px;
+}
+
+.tim__hacker-img {
+    width: 160px;
+    height: 160px;
+}
+
+.tim__nama {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #1e1e1e;
+    margin-bottom: 4px;
+}
+
+.tim__posisi {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #1e1e1e;
+    margin-bottom: 16px;
+}
+
+/* Social */
+.tim__social i {
+    color: #498553;
+}
+
+.tim__social span{
+    background-color: #498553;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #498553;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 150px;
+    /* height: 50px; */
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+
+}
+
+.tim__social .button:nth-child(3):hover .icon {
+    background: #fff;
+}
+
+.tim__social .button:nth-child(1):hover .icon {
+    background: #fff;
+}
+
+.tim__social .button:nth-child(2):hover .icon {
+    background: #fff;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    transform: translateY(-3px);
+}
+
+.wrapper .button span {
+    color: #FFF;
+}
+

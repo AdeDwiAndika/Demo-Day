@@ -34,13 +34,15 @@
 
 
 body {
-    background-color: var(--netural-collor-200);
+    background-color: #F5F5F5;
     font-family: var(--body-font);
+    text-decoration: none;
 
 }
 
 .fitur {
-    padding: 206px 165px;
+    padding: 70px 165px;
+    display: flex;
 }
 
 .fitur__container {
@@ -48,7 +50,7 @@ body {
     column-gap: 195px;
     width: 1110px;
     height: 350px;
-    background: #F36E40;
+    background: #fff;
     border-radius: 16px;
     padding: 40px 48px;
 }
@@ -59,7 +61,7 @@ body {
     justify-content: center;
     width: 540px;
     height: 308px;
-    color: #fff;
+    color: #3A365E;
 }
 
 .fitur__title {
@@ -78,7 +80,8 @@ body {
 }
 
 .fitur__img {
-    transform: translateY(-121px);
+    width: 495px;
+    height: 823px;
 }
 
 .button__back {
@@ -86,12 +89,13 @@ body {
     gap: 10px;
     align-items: center;
     width: 140px;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 50px;
     margin-top: 24px;
     background-color: #CCEC46;
     border-radius: 14px;
     font-size: 14px;
     color: #fff;
+    text-decoration: none;
 }
 
 .button__back:hover {

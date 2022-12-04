@@ -99,7 +99,7 @@ ul.nav li a.active{
     font-weight: 700;
     color:#3A365E;
     letter-spacing: -2px;
-    line-height: 60px;
+    line-height: -20px;
 }
 
 .hero-text p{
